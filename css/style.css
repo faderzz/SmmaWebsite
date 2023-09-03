@@ -1344,3 +1344,18 @@ footer{
 .post-newsletter .response{
   color: black;
 }
+
+/* #boldtext {
+  background: -webkit-linear-gradient(#7CB9E8, #007FFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+  
+#boldtext {
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    #fce041 50%
+  );
+  text-shadow: #151515 0px 0px 8px;
+}
